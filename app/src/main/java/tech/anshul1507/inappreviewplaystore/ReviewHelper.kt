@@ -7,7 +7,7 @@ import com.google.android.play.core.review.ReviewInfo
 import com.google.android.play.core.review.ReviewManager
 import com.google.android.play.core.review.ReviewManagerFactory
 
-object ReviewHandler {
+object ReviewHelper {
     lateinit var manager: ReviewManager
     var reviewInfo: ReviewInfo? = null
 
