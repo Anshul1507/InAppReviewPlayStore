@@ -4,26 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/text_welcome_screen"
+        android:id="@+id/text_demo_screen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to InApp Review Demo"
+        android:text="Voila!! your Demo Screen"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button_next_screen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click here"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_welcome_screen" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
